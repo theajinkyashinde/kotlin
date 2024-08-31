@@ -3,6 +3,9 @@ fun main () {
     arithmeticOperators()
     relationalOperators()
     incrementOperator()
+    logicalOperators()
+
+    shortCircuiting()
 }
 
 fun arithmeticOperators() {
@@ -51,4 +54,35 @@ fun incrementOperator() {
 
 
     println()
+}
+
+fun logicalOperators() {
+    val a = true
+    val b = false
+
+    // && Operator
+    val andResult = a && b
+    println("AND Operator Result : $andResult")
+
+    // || Operator
+    val orResult = a || b
+    println("OR Operator Result : $orResult")
+
+    // negation operator
+    val answer = false
+    val negationResult = !answer
+    println("Negation Result : $negationResult")
+}
+
+fun shortCircuiting() {
+    val i = 10
+    val j = 11
+
+    /*
+    INFO:
+    if first or condition of is true, then further condition will not check
+    this is called short-circuiting
+    */
+    val result = i == 10 || j == 11
+    println(result)
 }
