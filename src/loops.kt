@@ -41,4 +41,10 @@ fun main() {
     for (i in 1 until 10){
         println(i)
     }
+
+    // for loop (range with downTo)
+    println("range with downTo")
+    for (i in 10 downTo  1){
+        println(i)
+    }
 }
