@@ -13,6 +13,10 @@ fun main () {
 
     // without argument
     printMessage()
+
+    // function as an expression (USAGE: function can send as a parameter)
+    val fn: (num1: Int, num2: Int) -> Int = ::add   // (parameter 1 : DataType, parameter 2: DataType) -> ReturnType
+    println("Function as Expression : ${fn(1 , 1)}")
 }
 
 /*
