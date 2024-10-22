@@ -1,3 +1,5 @@
+package kotlin_basics
+
 fun main() {
 
     // NOTE: array is variable, which stores multiple values of same data type

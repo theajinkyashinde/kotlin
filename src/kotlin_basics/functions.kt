@@ -1,3 +1,5 @@
+package kotlin_basics
+
 fun main () {
     val result1 = add(2, 2) // arguments
     println("Result 1 : $result1 \n")

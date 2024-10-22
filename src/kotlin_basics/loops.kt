@@ -1,3 +1,5 @@
+package kotlin_basics
+
 fun main() {
     // while loop
     println("---WHILE LOOP")

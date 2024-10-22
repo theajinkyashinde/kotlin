@@ -1,3 +1,5 @@
+package kotlin_basics
+
 fun main() {
     toImproveReadability()
     range()
