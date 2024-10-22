@@ -6,7 +6,7 @@ Also, primary constructor always takes place in round brackets after class name,
 properties or parameters.
 
 It can't contain any runnable code.
-Runnable code can write into init block or body of the class
+Runnable code can write into init block
 
  */
 
