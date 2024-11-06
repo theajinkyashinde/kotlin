@@ -20,14 +20,15 @@ class InitDemoClass (val initProperty : String, val anotherProperty: Int) {
     init {
         println("First initializer")
     }
-    init {
-        println("Second initializer")
-    }
 
     constructor(initParam : String) :
             this(initParam, 1) {
                 println("Secondary c'tor")
             }
+
+    init {
+        println("Second initializer")
+    }
 }
 
 
