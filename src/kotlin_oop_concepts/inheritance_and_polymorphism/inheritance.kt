@@ -1,4 +1,4 @@
-package kotlin_oop_concepts
+package kotlin_oop_concepts.inheritance_and_polymorphism
 
 /* INFORMATION
 
@@ -33,7 +33,7 @@ open class Parent {
     }
 }
 
-class Child : Parent () {
+class Child : Parent() {
 
     init {
         println("Child's c'tor is called")

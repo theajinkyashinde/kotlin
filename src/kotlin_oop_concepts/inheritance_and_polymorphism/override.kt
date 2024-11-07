@@ -1,4 +1,4 @@
-package kotlin_oop_concepts
+package kotlin_oop_concepts.inheritance_and_polymorphism
 
 /* INFORMATION:
 
