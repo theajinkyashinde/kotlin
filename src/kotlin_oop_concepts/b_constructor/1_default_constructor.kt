@@ -1,4 +1,4 @@
-package kotlin_oop_concepts.constructor
+package kotlin_oop_concepts.b_constructor
 
 /* INFORMATION:
 

@@ -1,4 +1,4 @@
-package kotlin_oop_concepts.inheritance_and_polymorphism
+package kotlin_oop_concepts.c_polymorphism
 
 /* INFORMATION:
 
@@ -8,7 +8,7 @@ Overriding:
 -   If we want to call first parent's method first and then own specification, then super.methodName is used in override
     method.
 
-Override Getter and Setter:
+Override Getter and Setter: ???
 
 Any:
 -   Every Kotlin class has 'Any' as a super class / parent class.

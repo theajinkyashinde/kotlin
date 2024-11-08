@@ -1,4 +1,4 @@
-package kotlin_oop_concepts
+package kotlin_oop_concepts.a_class_and_objects
 
 /* INFORMATION:
 

@@ -1,5 +1,12 @@
 package kotlin_basics
 
+/* INFORMATION:
+
+Named Arguments:
+Value of properties can be passed with name and in any sequence of order
+
+ */
+
 fun main () {
     val result1 = add(2, 2) // arguments
     println("Result 1 : $result1 \n")
@@ -16,9 +23,16 @@ fun main () {
     // without argument
     printMessage()
 
+    println("--- Function as an Expression ---")
+
     // function as an expression (USAGE: function can send as a parameter)
     val fn: (num1: Int, num2: Int) -> Int = ::add   // (parameter 1 : DataType, parameter 2: DataType) -> ReturnType
     println("Function as Expression : ${fn(1 , 1)}")
+
+    println("--- Named Arguments ---")
+
+    println("Named Arguments 1 : ${add( num1 = 2, num2 = 2)}")
+    println("Named Arguments 2 : ${sum( num2 = 2, num1 = 5)}")
 }
 
 /*

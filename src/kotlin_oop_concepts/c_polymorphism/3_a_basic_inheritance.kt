@@ -1,23 +1,30 @@
-package kotlin_oop_concepts.inheritance_and_polymorphism
+package kotlin_oop_concepts.c_polymorphism
 
-/* INFORMATION
+/* INHERITANCE:
 
-Inheritance:
--   Characteristics or behaviours, which we received from our parents.
--   Inheritance is used to improve code reusability and readability.
+GENERAL:
+-   Simple meaning : Characteristics or behaviours, which we received from our parents.
 -   We can also say as "is a" relationship.
     e.g.    Car is a Vehicle, Truck is a Vehicle.
             Square is a Shape, Triangle is a Shape.
--   Child class will be inherited from parent class. It means, child can access all the properties
-    and methods of parent class along with own specific properties.
--   Also, first parent constructor is created, then child class constructor. (Child is not existed without a parent)
--   Following terminology is used to represent inheritance:
+
+OOP Concept:
+-   In OOP, child class will be inherited from parent class.
+    It means, child can access all the properties and methods of parent class,
+    along with own specific properties and methods.
+
+    following terminology is used to represent inheritance:
         1. parent-child class
         2. super-sub class
         3. base-derived class
         4. general-specific class
--   To make a class inheritable, mark it with the 'open' keyword.
--   Kotlin supported only single king inheritance. So, child class having only one parent.
+-   To make a class inheritable or parent, mark it with the 'open' keyword.
+-   Also, first parent constructor is created, then child class constructor. (Child is not existed without a parent)
+-   Kotlin supported only single kind inheritance. So, child class having only one parent.
+
+USE:
+-   Inheritance is used to improve code reusability and readability.
+
  */
 
 open class Parent {

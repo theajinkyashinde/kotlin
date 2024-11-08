@@ -1,4 +1,4 @@
-package kotlin_oop_concepts.constructor
+package kotlin_oop_concepts.b_constructor
 
 /*
 Primary Constructor: Please see constructor definition in 1_default_constructor file.
