@@ -3,6 +3,13 @@ package kotlin_oop_concepts.c_polymorphism
 /* INHERITANCE AND POLYMORPHISM:
 
 2. Dynamic Polymorphism : Run-Time
+
+    -   Dynamic polymorphism is achieved through function overriding and inheritance.
+        Function overriding allows a subclass to provide a specific implementation for a method that is already
+        defined in its superclass. At runtime, the correct method is determined based on the actual type of the object,
+        and the overridden method in the subclass is called.
+        (Reference: https://medium.com/@basdoganahmetcaner/using-polymorphism-in-kotlin-f380b0689b40)
+
     -   Parent can hold a reference to its child.
     -   Parent can call methods of child classes
 
